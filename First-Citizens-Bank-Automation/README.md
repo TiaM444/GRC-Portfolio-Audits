@@ -3,4 +3,5 @@ System Overview: First Citizens Bank is implementing an automation platform to e
 Categorization Logic: The overall system is categorized as HIGH RISK because it processes sensitive admin accounts and vulnerability data. While Integrity is Moderate and Availability is Low, the high-water mark is set by the potential impact on Confidentiality and Privacy Protection.
 
 
-https://github.com/TiaM444/GRC-Portfolio-Audits/blob/main/First-Citizens-Bank-Automation/WiCys%20GRC%20TM.pdf
+
+📄 **[View Full Audit Report: First Citizens Bank Automation (PDF)](https://github.com/TiaM444/GRC-Portfolio-Audits/blob/main/First-Citizens-Bank-Automation/WiCys%20GRC%20TM.pdf)**
