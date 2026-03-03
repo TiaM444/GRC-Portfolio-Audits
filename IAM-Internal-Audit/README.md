@@ -1,1 +1,3 @@
+Project Overview: This internal audit evaluated user access controls for the Production Database at Carraway IT Consultants to ensure alignment with NIST SP 800-53 and ISO 27001 standards. The review focused on verifying the Principle of Least Privilege (PoLP) and the effectiveness of account deprovisioning processes.
 
+Key Findings: The audit identified five high-risk findings, including orphaned accounts for terminated employees and "privilege creep" where non-DevOps roles held admin-level access. Root cause analysis revealed a breakdown in the Joiner-Mover-Leaver (JML) process due to a lack of automated communication between HR and IT.
