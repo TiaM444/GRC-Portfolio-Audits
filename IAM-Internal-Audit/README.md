@@ -15,4 +15,6 @@ To resolve these findings, the following actions were mandated:
 Immediate Deactivation: All orphaned accounts were flagged for deactivation by EOD of the audit date.
 Access Recertification: A full review of all Admin permissions is scheduled for completion by February 20, 2026.
 Automation: Implementation of an automated ticketing trigger between HR software and Active Directory to ensure deprovisioning occurs within 24 hours of termination.
-📄 View Full Internal Audit Report (PDF)
+
+
+[📄 View Full Internal Audit Report (PDF)](https://github.com/TiaM444/GRC-Portfolio-Audits/blob/main/IAM-Internal-Audit/User_Access_Audit_Report_2026.pdf)
