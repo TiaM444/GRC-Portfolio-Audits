@@ -1,20 +1,46 @@
-User Access Control Audit: Production Database
-Organization: Carraway IT Consultants Auditor: Tia Mitchell, GRC Analyst Date: January 2026 
+Internal Audit: Identity & Access Management (IAM)
 
-Executive Summary
-This internal audit resulted in a rating of Needs Improvement for the Production Database access controls. The review identified five high-risk findings that expose the organization to unauthorized data access and potential regulatory non-compliance. Remediation is required to align the IAM lifecycle with NIST SP 800-53 and ISO 27001 standards.
+📌 Project Overview
 
-Key Audit Findings
-The audit compared active system accounts against HR records and the internal Role-Based Access Control (RBAC) matrix:
-Orphaned Accounts: Two accounts (Alice and Bob) remained "Active" despite the employees being terminated.
-Privilege Creep: Admin-level access was identified for non-DevOps roles, including a Developer and an Intern.
-Process Failure: A communication gap exists between HR and IT, resulting in a failure of the deprovisioning workflow.
-Manual Provisioning Risks: Access levels are manually assigned without automated guardrails, allowing improper permission inheritance.
-Management Action Plan
-To resolve these findings, the following actions were mandated:
-Immediate Deactivation: All orphaned accounts were flagged for deactivation by EOD of the audit date.
-Access Recertification: A full review of all Admin permissions is scheduled for completion by February 20, 2026.
-Automation: Implementation of an automated ticketing trigger between HR software and Active Directory to ensure deprovisioning occurs within 24 hours of termination.
+This project involved conducting an internal audit of Identity and Access Management (IAM) controls within a corporate environment. The audit focused on ensuring that user access is managed through a secure lifecycle—from onboarding to termination—while maintaining the Principle of Least Privilege (PoLP) to prevent unauthorized access and data breaches.
+
+
+🛡️ Regulatory & Control Mapping
+The audit was performed by mapping organizational practices against industry-leading frameworks:
+
+NIST SP 800-53 (AC Family): Evaluated Access Control implementation, specifically focusing on account management and least privilege.
+
+
+ISO/IEC 27001 (A.9): Verified compliance with international standards for user access management and responsibility.
+
+
+Sarbanes-Oxley (SOX): Tested logical access controls to ensure the integrity of financial data reporting.
+
+🔍 Key Audit Areas
+
+User Access Reviews (UAR): Analyzed the process for periodic access certifications to identify and revoke "orphaned" or excessive accounts.
+
+
+Onboarding & Termination: Audited the timeliness of account deactivations (aiming for <24 hours) to mitigate risks of unauthorized access by former employees.
+
+
+Privileged Access Management (PAM): Reviewed the use of administrative accounts to ensure they are restricted to authorized personnel and used only for approved changes.
+
+
+MFA Compliance: Verified that Multi-Factor Authentication was enforced for all remote and privileged access sessions.
+
+🛠️ Skills & Tools Demonstrated
+
+Control Testing & Evidence Validation 
+
+
+Identity Governance & Administration (IGA)
+
+Risk Mitigation & Remediation Planning 
+
+
+Technical Writing & Reporting 
+
 
 
 [📄 View Full Internal Audit Report (PDF)](https://github.com/TiaM444/GRC-Portfolio-Audits/blob/main/IAM-Internal-Audit/User_Access_Audit_Report_2026.pdf)
